@@ -3,10 +3,10 @@ codigos uteis no GIT
 
 Ajuda comandos específicos:
 
-```
-   git hel add
-   git help commit
-   git help <qualquer comando git>```
+   `git help add`
+   `git help commit`
+   `git help <qualquer comando git>`
+   
    
 Setar Usuário:
 
@@ -18,7 +18,7 @@ Setar Email:
 
 Setar editor:
 
-```git config --global core.editor vim```
+```git config --global core.editor seu editor```
 
 Setar ferramenta de de merge:
 
@@ -71,5 +71,22 @@ Repositório Remoto:
 Exibir os repositórios remotos:
 
 ```git remote -v```
+
+Vincular repositório local com um repositório remoto
+
+`git remote add origin git@github.com:Leojunkes/seuRepositório`
+
+Exibir informações dos repositórios remotos
+
+`git remote show origin`
+
+Renomear um repositório remoto
+
+`git remote rename origin curso-git`
+
+Desvincular um repositório remoto
+
+`git remote rm curso-git`
+
 
 
