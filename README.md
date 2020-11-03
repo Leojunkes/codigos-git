@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Codigos-Git
+codigos uteis no GIT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ajuda comandos específicos:
 
-## Available Scripts
+```
+   git hel add
+   git help commit
+   git help <qualquer comando git>```
+   
+Setar Usuário:
 
-In the project directory, you can run:
+```git config --global user.name "seu nome"```
 
-### `yarn start`
+Setar Email:
+   
+```git config --global user.email "seu email"```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Setar editor:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```git config --global core.editor vim```
 
-### `yarn test`
+Setar ferramenta de de merge:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```git config --global merge.tool vimdiff```
 
-### `yarn build`
+Setar arquivos a serem ignorados:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```git config --global core.excludesfile ~/.gitignore```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Listar configurações:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```git config --listgit```
 
-### `yarn eject`
+Criar novo repositório Local:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```git init```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Verificar estado dos arquivos/diretórios:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```git status```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Adicionar um arquivo em específico:
 
-## Learn More
+```git add meu_arquivo.txt```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Exibir histórico com diff das duas últimas alterações:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```git log -p -2```
 
-### Code Splitting
+Exibir histório de um arquivo específico:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```git log -- <caminho_do_arquivo>```
 
-### Analyzing the Bundle Size
+Desfazendo alteração local (working directory) OBS: quando o arquivo não foi adicionado na estaged area:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```git checkout -- meu_arquivo.txt```
 
-### Making a Progressive Web App
+Desfazendo alteração local (staging area):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```git reset HEAD meu_arquivo.txt```
 
-### Advanced Configuration
+A alteração do diretório pode ser realizada através do comando abaixo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```git checkout meu_arquivo.txt```
 
-### Deployment
+Repositório Remoto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```git remote```
 
-### `yarn build` fails to minify
+Exibir os repositórios remotos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```git remote -v```
+
+
