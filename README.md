@@ -1,5 +1,5 @@
-# Codigos-Git
-codigos uteis no GIT
+# Códigos-Git
+códigos úteis no GIT
 
 Ajuda comandos específicos:
 
@@ -87,6 +87,25 @@ Renomear um repositório remoto
 Desvincular um repositório remoto
 
 `git remote rm curso-git`
+
+O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+`git push -u origin main` 
+
+Os demais pushes não precisam dessa informação
+
+`git push`
+
+Atualizar os arquivos no branch atual
+
+`git pull`
+
+Clonar um repositório remoto já existente
+
+`git clone git@github.com:leocomelli/seuRepositório.git`
+
+
+
 
 
 
