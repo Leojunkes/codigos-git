@@ -104,7 +104,19 @@ Clonar um repositório remoto já existente
 
 `git clone git@github.com:leocomelli/seuRepositório.git`
 
+Tags
 
+Criando uma tag leve
+
+`git tag vs-1.1`
+
+Criando uma tag anotada
+
+`git tag -a vs-1.1 -m "Minha versão 1.1"`
+
+Criando uma tag assinada
+
+Para criar uma tag assinada é necessário uma chave privada (GNU Privacy Guard - GPG).
 
 
 
