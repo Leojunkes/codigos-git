@@ -118,6 +118,32 @@ Criando uma tag assinada
 
 Para criar uma tag assinada é necessário uma chave privada (GNU Privacy Guard - GPG).
 
+`git tag -s vs-1.1 -m "Minha tag assinada 1.1"`
+
+Criando tag a partir de um commit (hash)
+
+`git tag -a vs-1.2 9fceb02`
+
+Criando tags no repositório remoto
+
+`git push origin vs-1.2`
+
+Criando todas as tags locais no repositório remoto
+
+`git push origin --tags`
+
+O Master é o Branch principal do GIT.
+
+Criando um novo branch
+
+`git branch bug-123`
+
+Trocando para um branch existente
+
+`git checkout bug-123`
+
+Neste caso, o ponteiro principal HEAD esta apontando para o branch chamado bug-123.
+
 
 
 
