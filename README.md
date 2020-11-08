@@ -144,6 +144,54 @@ Trocando para um branch existente
 
 Neste caso, o ponteiro principal HEAD esta apontando para o branch chamado bug-123.
 
+Criar um novo branch e trocar
+
+`git checkout -b bug-456`
+
+Voltar para o branch principal (master)
+
+`git checkout master`
+
+Resolver merge entre os branches
+
+`git merge bug-123`
+
+Para realizar o merge, é necessário estar no branch que deverá receber as alterações. O merge pode automático ou manual. O merge automático será feito em arquivos textos que não sofreram alterações nas mesmas linhas, já o merge manual será feito em arquivos textos que sofreram alterações nas mesmas linhas.
+
+A mensagem indicando um merge manual será:
+
+Automerging meu_arquivo.txt
+
+CONFLICT (content): Merge conflict in meu_arquivo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+Apagando um branch
+
+`git branch -d bug-123`
+
+Listar branches
+
+`git branch`
+
+Listar branches com informações dos últimos commits
+
+`git branch -v`
+
+Listar branches que já foram fundidos (merged) com o master
+
+`git branch --merged` 
+
+Listar branches que não foram fundidos (merged) com o master
+
+`git branch --no-merged`
+
+Criando um branch remoto com o mesmo nome
+
+`git push origin bug-123:new-branch`
+
+Baixar um branch remoto para edição
+
+`git checkout -b bug-123 origin/bug-123`
+
 
 
 
