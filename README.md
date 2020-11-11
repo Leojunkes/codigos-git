@@ -192,6 +192,18 @@ Baixar um branch remoto para edição
 
 `git checkout -b bug-123 origin/bug-123`
 
+Apagar branch remoto
+
+`git push origin:bug-123`
+
+Rebasing
+
+Fazendo o rebase entre um o branch bug-123 e o master.
+
+`git checkout experiment`
+
+`git rebase master`
+
 
 
 
