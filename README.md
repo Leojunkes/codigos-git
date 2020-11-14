@@ -204,6 +204,27 @@ Fazendo o rebase entre um o branch bug-123 e o master.
 
 `git rebase master`
 
+###Stash
+
+Para alternar entre um branch e outro é necessário fazer o commit das alterações atuais para depois trocar para um outro branch. Se existir a necessidade de realizar a troca sem fazer o commit é possível criar um stash. O Stash como se fosse um branch temporário que contem apenas as alterações ainda não commitadas.
+
+Criar um stash
+
+`git stash`
+
+Listar stashes
+
+`git stash list`
+
+Voltar para o último stash
+
+`git stash apply`
+
+Voltar para um stash específico
+
+`git stash apply stash@{2}`
+
+Onde 2 é o indíce do stash desejado.
 
 
 
