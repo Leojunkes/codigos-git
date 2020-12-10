@@ -1,6 +1,18 @@
 # Códigos-Git
 códigos úteis no GIT
 
+## Índice
+
+- [Índice](#Índice)
+- [Setar Usuário](#Setar-Usuário)
+  - [Setar Email:](#Setar-Email)
+  - [Setar Editor:](#Setar-Editor)
+- [Setar ferramenta de merde](#Setar-ferramenta-de-merde)
+- [Como Contribuir](#como-contribuir)
+  - [Requisitos](#requisitos)
+  - [Instalar](#instalar)
+- [Comunidade](#comunidade)
+
 Ajuda comandos específicos:
 
    `git help add`
@@ -8,43 +20,43 @@ Ajuda comandos específicos:
    `git help <qualquer comando git>`
    
    
-Setar Usuário:
+## Setar Usuário:
 
 ```git config --global user.name "seu nome"```
 
-Setar Email:
+## Setar Email:
    
 ```git config --global user.email "seu email"```
 
-Setar editor:
+## Setar editor:
 
 ```git config --global core.editor seu editor```
 
-Setar ferramenta de de merge:
+## Setar ferramenta de merge:
 
 ```git config --global merge.tool vimdiff```
 
-Setar arquivos a serem ignorados:
+## Setar arquivos a serem ignorados:
 
 ```git config --global core.excludesfile ~/.gitignore```
 
-Listar configurações:
+## Listar configurações:
 
 ```git config --listgit```
 
-Criar novo repositório Local:
+## Criar novo repositório Local:
 
 ```git init```
 
-Verificar estado dos arquivos/diretórios:
+## Verificar estado dos arquivos/diretórios:
 
 ```git status```
 
-Adicionar um arquivo em específico:
+## Adicionar um arquivo em específico:
 
 ```git add meu_arquivo.txt```
 
-Exibir histórico com diff das duas últimas alterações:
+## Exibir histórico com diff das duas últimas alterações:
 
 ```git log -p -2```
 
