@@ -5,13 +5,13 @@ códigos úteis no GIT
 
 - [Índice](#Índice)
 - [Setar Usuário](#Setar-Usuário)
-  - [Setar Email:](#Setar-Email)
-  - [Setar Editor:](#Setar-Editor)
+- [Setar Email:](#Setar-Email)
+- [Setar Editor:](#Setar-Editor)
 - [Setar ferramenta de merde](#Setar-ferramenta-de-merde)
-- [Como Contribuir](#como-contribuir)
-  - [Requisitos](#requisitos)
-  - [Instalar](#instalar)
-- [Comunidade](#comunidade)
+- [Setar arquivos a serem ignorados](#Setar-arquivos-a-serem-ignorados)
+- [Listar configurações](#Listar-configurações)
+- [Criar novo repositório Local](#Criar-novo-repositório-Local)
+- [Verificar estado dos arquivos/diretórios](#Verificar-estado-dos-arquivos/diretórios)
 
 Ajuda comandos específicos:
 
@@ -60,35 +60,35 @@ Ajuda comandos específicos:
 
 ```git log -p -2```
 
-Exibir histório de um arquivo específico:
+## Exibir histório de um arquivo específico:
 
 ```git log -- <caminho_do_arquivo>```
 
-Desfazendo alteração local (working directory) OBS: quando o arquivo não foi adicionado na estaged area:
+## Desfazendo alteração local (working directory) OBS: quando o arquivo não foi adicionado na estaged area:
 
 ```git checkout -- meu_arquivo.txt```
 
-Desfazendo alteração local (staging area):
+## Desfazendo alteração local (staging area):
 
 ```git reset HEAD meu_arquivo.txt```
 
-A alteração do diretório pode ser realizada através do comando abaixo:
+## A alteração do diretório pode ser realizada através do comando abaixo:
 
 ```git checkout meu_arquivo.txt```
 
-Repositório Remoto:
+## Repositório Remoto:
 
 ```git remote```
 
-Exibir os repositórios remotos:
+## Exibir os repositórios remotos:
 
 ```git remote -v```
 
-Vincular repositório local com um repositório remoto
+## Vincular repositório local com um repositório remoto
 
 `git remote add origin git@github.com:Leojunkes/seuRepositório`
 
-Exibir informações dos repositórios remotos
+## Exibir informações dos repositórios remotos
 
 `git remote show origin`
 
