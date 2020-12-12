@@ -3,7 +3,8 @@ códigos úteis no GIT
 
 ## Índice
 
-- [Índice](#Índice)
+- [Ajuda comandos específicos](#Ajuda-comandos-específicos)
+- [Setar Usuário](#Setar-Usuário)
 - [Setar Usuário](#Setar-Usuário)
 - [Setar Email:](#Setar-Email)
 - [Setar Editor:](#Setar-Editor)
@@ -13,7 +14,7 @@ códigos úteis no GIT
 - [Criar novo repositório Local](#Criar-novo-repositório-Local)
 - [Verificar estado dos arquivos/diretórios](#Verificar-estado-dos-arquivos/diretórios)
 
-Ajuda comandos específicos:
+## Ajuda comandos específicos:
 
    `git help add`
    `git help commit`
