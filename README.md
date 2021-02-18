@@ -13,6 +13,8 @@ códigos úteis no GIT
 - [Listar configurações](#Listar-configurações)
 - [Criar novo repositório Local](#Criar-novo-repositório-Local)
 - [Verificar estado dos arquivos/diretórios](#Verificar-estado-dos-arquivos/diretórios)
+- [Adicionar um arquivo em específico](## Adicionar um arquivo em específico)
+
 
 ## Ajuda comandos específicos:
 
