@@ -1,4 +1,5 @@
 # Códigos-Git
+
 códigos úteis no GIT
 
 ## Índice
@@ -13,79 +14,79 @@ códigos úteis no GIT
 - [Listar configurações](#Listar-configurações)
 - [Criar novo repositório Local](#Criar-novo-repositório-Local)
 - [Verificar estado dos arquivos/diretórios](#Verificar-estado-dos-arquivos/diretórios)
-- [Adicionar um arquivo em específico](## Adicionar um arquivo em específico)
-
+- [Adicionar um arquivo em específico](#Adicionar-um-arquivo-em-específico) 
+- [Exibir histórico com diff, duas alterações](#Exibir-histórico-com-diff-das-duas-últimas-alterações)
+- [Exibir histório de um arquivo específico](#Exibir-histório-de-um-arquivo-específico)
 
 ## Ajuda comandos específicos:
 
-   `git help add`
-   `git help commit`
-   `git help <qualquer comando git>`
-   
-   
+`git help add`
+`git help commit`
+`git help <qualquer comando git>`
+
 ## Setar Usuário:
 
-```git config --global user.name "seu nome"```
+`git config --global user.name "seu nome"`
 
 ## Setar Email:
-   
-```git config --global user.email "seu email"```
+
+`git config --global user.email "seu email"`
 
 ## Setar editor:
 
-```git config --global core.editor seu editor```
+`git config --global core.editor seu editor`
 
 ## Setar ferramenta de merge:
 
-```git config --global merge.tool vimdiff```
+`git config --global merge.tool vimdiff`
 
 ## Setar arquivos a serem ignorados:
 
-```git config --global core.excludesfile ~/.gitignore```
+`git config --global core.excludesfile ~/.gitignore`
 
 ## Listar configurações:
 
-```git config --listgit```
+`git config --listgit`
 
 ## Criar novo repositório Local:
 
-```git init```
+`git init`
 
 ## Verificar estado dos arquivos/diretórios:
 
-```git status```
+`git status`
 
 ## Adicionar um arquivo em específico:
 
-```git add meu_arquivo.txt```
+`git add meu_arquivo.txt`
 
 ## Exibir histórico com diff das duas últimas alterações:
 
-```git log -p -2```
+`git log -p -2`
 
 ## Exibir histório de um arquivo específico:
 
-```git log -- <caminho_do_arquivo>```
+`git log -- <caminho_do_arquivo>`
 
 ## Desfazendo alteração local (working directory) OBS: quando o arquivo não foi adicionado na estaged area:
 
-```git checkout -- meu_arquivo.txt```
+`git checkout -- meu_arquivo.txt`
 
 ## Desfazendo alteração local (staging area):
 
-```git reset HEAD meu_arquivo.txt```
+`git reset HEAD meu_arquivo.txt`
 
 ## A alteração do diretório pode ser realizada através do comando abaixo:
 
-```git checkout meu_arquivo.txt```
+`git checkout meu_arquivo.txt`
 
 ## Repositório Remoto:
 
-```git remote```
+`git remote`
 
 ## Exibir os repositórios remotos:
 
-```git remote -v```
+`git remote -v`
 
 ## Vincular repositório local com um repositório remoto
 
@@ -105,7 +106,7 @@ Desvincular um repositório remoto
 
 O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
 
-`git push -u origin main` 
+`git push -u origin main`
 
 Os demais pushes não precisam dessa informação
 
@@ -193,7 +194,7 @@ Listar branches com informações dos últimos commits
 
 Listar branches que já foram fundidos (merged) com o master
 
-`git branch --merged` 
+`git branch --merged`
 
 Listar branches que não foram fundidos (merged) com o master
 
@@ -240,6 +241,3 @@ Voltar para um stash específico
 `git stash apply stash@{2}`
 
 Onde 2 é o indíce do stash desejado.
-
-
-
