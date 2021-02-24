@@ -5,7 +5,7 @@ códigos úteis no GIT
 ## Índice
 
 - [Ajuda comandos específicos](#Ajuda-comandos-específicos)
--- [Setar Usuário](#Setar-Usuário)
+    - [Setar Usuário](#Setar-Usuário)
 - [Setar Email:](#Setar-Email)
 - [Setar Editor:](#Setar-Editor)
 - [Setar ferramenta de merde](#Setar-ferramenta-de-merge)
