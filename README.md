@@ -5,12 +5,11 @@ códigos úteis no GIT
 ## Índice
 
 - [Ajuda comandos específicos](#Ajuda-comandos-específicos)
-## Setar Configurações:
-    - [Setar Usuário](#Setar-Usuário)
-    - [Setar Email:](#Setar-Email)
-    - [Setar Editor:](#Setar-Editor)
-    - [Setar ferramenta de merde](#Setar-ferramenta-de-merge)
-    - [Setar arquivos a serem ignorados](#Setar-arquivos-a-serem-ignorados)
+-- [Setar Usuário](#Setar-Usuário)
+- [Setar Email:](#Setar-Email)
+- [Setar Editor:](#Setar-Editor)
+- [Setar ferramenta de merde](#Setar-ferramenta-de-merge)
+- [Setar arquivos a serem ignorados](#Setar-arquivos-a-serem-ignorados)
 - [Listar configurações](#Listar-configurações)
 - [Criar novo repositório Local](#Criar-novo-repositório-Local)
 - [Verificar estado dos arquivos/diretórios](#Verificar-estado-dos-arquivos/diretórios)
