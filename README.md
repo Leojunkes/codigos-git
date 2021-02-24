@@ -5,18 +5,19 @@ códigos úteis no GIT
 ## Índice
 
 - [Ajuda comandos específicos](#Ajuda-comandos-específicos)
-- [Setar Usuário](#Setar-Usuário)
-- [Setar Usuário](#Setar-Usuário)
-- [Setar Email:](#Setar-Email)
-- [Setar Editor:](#Setar-Editor)
-- [Setar ferramenta de merde](#Setar-ferramenta-de-merde)
-- [Setar arquivos a serem ignorados](#Setar-arquivos-a-serem-ignorados)
+## Setar Configurações:
+    - [Setar Usuário](#Setar-Usuário)
+    - [Setar Email:](#Setar-Email)
+    - [Setar Editor:](#Setar-Editor)
+    - [Setar ferramenta de merde](#Setar-ferramenta-de-merge)
+    - [Setar arquivos a serem ignorados](#Setar-arquivos-a-serem-ignorados)
 - [Listar configurações](#Listar-configurações)
 - [Criar novo repositório Local](#Criar-novo-repositório-Local)
 - [Verificar estado dos arquivos/diretórios](#Verificar-estado-dos-arquivos/diretórios)
 - [Adicionar um arquivo em específico](#Adicionar-um-arquivo-em-específico) 
 - [Exibir histórico com diff, duas alterações](#Exibir-histórico-com-diff-das-duas-últimas-alterações)
 - [Exibir histório de um arquivo específico](#Exibir-histório-de-um-arquivo-específico)
+- [Desfazendo alteração local (working directory)](#Desfazendo-alteração-local-working-directory)
 
 ## Ajuda comandos específicos:
 
@@ -68,11 +69,11 @@ códigos úteis no GIT
 
 `git log -- <caminho_do_arquivo>`
 
-## Desfazendo alteração local (working directory) OBS: quando o arquivo não foi adicionado na estaged area:
+## Desfazendo alteração local working directory:
 
 `git checkout -- meu_arquivo.txt`
 
-## Desfazendo alteração local (staging area):
+## Desfazendo alteração local staging area:
 
 `git reset HEAD meu_arquivo.txt`
 
