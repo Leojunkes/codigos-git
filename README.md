@@ -5,18 +5,24 @@ códigos úteis no GIT
 ## Índice
 
 - [Ajuda comandos específicos](#Ajuda-comandos-específicos)
-    - [Setar Usuário](#Setar-Usuário)
-    - [Setar Email:](#Setar-Email)
-    - [Setar Editor:](#Setar-Editor)
-    - [Setar ferramenta de merde](#Setar-ferramenta-de-merge)
-    - [Setar arquivos a serem ignorados](#Setar-arquivos-a-serem-ignorados)
+  - [Setar Usuário](#Setar-Usuário)
+  - [Setar Email:](#Setar-Email)
+  - [Setar Editor:](#Setar-Editor)
+  - [Setar ferramenta de merde](#Setar-ferramenta-de-merge)
+  - [Setar arquivos a serem ignorados](#Setar-arquivos-a-serem-ignorados)
 - [Listar configurações](#Listar-configurações)
 - [Criar novo repositório Local](#Criar-novo-repositório-Local)
 - [Verificar estado dos arquivos/diretórios](#Verificar-estado-dos-arquivos/diretórios)
-- [Adicionar um arquivo em específico](#Adicionar-um-arquivo-em-específico) 
+- [Adicionar um arquivo em específico](#Adicionar-um-arquivo-em-específico)
 - [Exibir histórico com diff, duas alterações](#Exibir-histórico-com-diff-das-duas-últimas-alterações)
 - [Exibir histório de um arquivo específico](#Exibir-histório-de-um-arquivo-específico)
 - [Desfazendo alteração local (working directory)](#Desfazendo-alteração-local-working-directory)
+- [Desfazendo alteração local staging area](#Desfazendo-alteração-local-staging-area)
+- [alteração do diretório](#Alteração-do-diretório)
+- [Repositório Remoto](#Repositório-Remoto)
+  - [Exibir os repositórios remotos](#Exibir-os-repositórios-remotos)
+  - [Repositório Remoto](#Vincular-repositório-local-com-um-repositório-remoto)
+  - [Repositório Remoto](#Exibir-informações-dos-repositórios-remotos)
 
 ## Ajuda comandos específicos:
 
@@ -76,7 +82,7 @@ códigos úteis no GIT
 
 `git reset HEAD meu_arquivo.txt`
 
-## A alteração do diretório pode ser realizada através do comando abaixo:
+## Alteração do diretório:
 
 `git checkout meu_arquivo.txt`
 
@@ -90,7 +96,7 @@ códigos úteis no GIT
 
 ## Vincular repositório local com um repositório remoto
 
-`git remote add origin git@github.com:Leojunkes/seuRepositório`
+`git remote add origin git@github.com:seuNick/seuRepositório`
 
 ## Exibir informações dos repositórios remotos
 
