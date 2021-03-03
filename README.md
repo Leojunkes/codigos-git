@@ -26,6 +26,13 @@ códigos úteis no GIT
   - [Renomear um Repo remoto](#Renomear-um-repositório-remoto) 
   -[Descincular um Repo Remoto](#Desvincular-um-repositório-remoto) 
   -[Primeiro Push](#O-primeiro-push-deve-ser-completo)
+  -[Outros Pushes](#Os-demais-pushes-não-precisam-dessa-informação)
+  -[Atualizar Arq. Branch Atual](#Atualizar-os-arquivos-no-branch-atual)
+  -[Criar novo Branch](#Criando-um-novo-branch)
+  -[Clonar Repositório existente](#Clonar-um-repositório-remoto-já-existente)
+  
+
+
 
 ## Ajuda comandos específicos:
 
@@ -131,53 +138,53 @@ códigos úteis no GIT
 
 Tags
 
-Criando uma tag leve
+## Criando uma tag leve
 
 `git tag vs-1.1`
 
-Criando uma tag anotada
+## Criando uma tag anotada
 
 `git tag -a vs-1.1 -m "Minha versão 1.1"`
 
-Criando uma tag assinada
+## Criando uma tag assinada
 
 Para criar uma tag assinada é necessário uma chave privada (GNU Privacy Guard - GPG).
 
 `git tag -s vs-1.1 -m "Minha tag assinada 1.1"`
 
-Criando tag a partir de um commit (hash)
+## Criando tag a partir de um commit (hash)
 
 `git tag -a vs-1.2 9fceb02`
 
-Criando tags no repositório remoto
+## Criando tags no repositório remoto
 
 `git push origin vs-1.2`
 
-Criando todas as tags locais no repositório remoto
+## Criando todas as tags locais no repositório remoto
 
 `git push origin --tags`
 
 O Master é o Branch principal do GIT.
 
-Criando um novo branch
+## Criando um novo branch
 
 `git branch bug-123`
 
-Trocando para um branch existente
+## Trocando para um branch existente
 
 `git checkout bug-123`
 
 Neste caso, o ponteiro principal HEAD esta apontando para o branch chamado bug-123.
 
-Criar um novo branch e trocar
+## Criar um novo branch e trocar
 
 `git checkout -b bug-456`
 
-Voltar para o branch principal (master)
+## Voltar para o branch principal (master)
 
 `git checkout master`
 
-Resolver merge entre os branches
+## Resolver merge entre os branches
 
 `git merge bug-123`
 
