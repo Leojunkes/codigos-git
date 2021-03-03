@@ -22,8 +22,10 @@ códigos úteis no GIT
 - [Repositório Remoto](#Repositório-Remoto)
   - [Exibir os repositórios remotos](#Exibir-os-repositórios-remotos)
   - [Repositório Remoto](#Vincular-repositório-local-com-um-repositório-remoto)
-  - [Repositório Remoto](#Exibir-informações-dos-repositórios-remotos)
-  - [Repositório Remoto](#Renomear-um-repositório-remoto) -[Repositório Remoto](#Desvincular-um-repositório-remoto) -[Repositório Remoto](#O-primeiro-push-deve-ser-completo)
+  - [Info do Repos Remotos](#Exibir-informações-dos-repositórios-remotos)
+  - [Renomear um Repo remoto](#Renomear-um-repositório-remoto) 
+  -[Descincular um Repo Remoto](#Desvincular-um-repositório-remoto) 
+  -[Primeiro Push](#O-primeiro-push-deve-ser-completo)
 
 ## Ajuda comandos específicos:
 
