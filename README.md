@@ -23,6 +23,7 @@ códigos úteis no GIT
   - [Exibir os repositórios remotos](#Exibir-os-repositórios-remotos)
   - [Repositório Remoto](#Vincular-repositório-local-com-um-repositório-remoto)
   - [Repositório Remoto](#Exibir-informações-dos-repositórios-remotos)
+  - [Repositório Remoto](#Renomear-um-repositório-remoto) -[Repositório Remoto](#Desvincular-um-repositório-remoto) -[Repositório Remoto](#O-primeiro-push-deve-ser-completo)
 
 ## Ajuda comandos específicos:
 
@@ -68,31 +69,31 @@ códigos úteis no GIT
 
 ## Exibir histórico com diff das duas últimas alterações:
 
-`git log -p -2`
+`git log -p -2` [Inicio](#Códigos-Git)
 
 ## Exibir histório de um arquivo específico:
 
-`git log -- <caminho_do_arquivo>`
+`git log -- <caminho_do_arquivo>` [Inicio](#Códigos-Git)
 
 ## Desfazendo alteração local working directory:
 
-`git checkout -- meu_arquivo.txt`
+`git checkout -- meu_arquivo.txt` [Inicio](#Códigos-Git)
 
 ## Desfazendo alteração local staging area:
 
-`git reset HEAD meu_arquivo.txt`
+`git reset HEAD meu_arquivo.txt` [Inicio](#Códigos-Git)
 
 ## Alteração do diretório:
 
-`git checkout meu_arquivo.txt`
+`git checkout meu_arquivo.txt` [Inicio](#Códigos-Git)
 
 ## Repositório Remoto:
 
-`git remote`
+`git remote` [Inicio](#Códigos-Git)
 
 ## Exibir os repositórios remotos:
 
-`git remote -v`
+`git remote -v` [Inicio](#Códigos-Git)
 
 ## Vincular repositório local com um repositório remoto
 
@@ -100,29 +101,29 @@ códigos úteis no GIT
 
 ## Exibir informações dos repositórios remotos
 
-`git remote show origin`
+`git remote show origin` [Inicio](#Códigos-Git)
 
-Renomear um repositório remoto
+## Renomear um repositório remoto
 
-`git remote rename origin curso-git`
+`git remote rename origin curso-git` [Inicio](#Códigos-Git)
 
-Desvincular um repositório remoto
+## Desvincular um repositório remoto
 
 `git remote rm curso-git`
 
-O primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+## O primeiro push deve ser completo
 
 `git push -u origin main`
 
-Os demais pushes não precisam dessa informação
+## Os demais pushes não precisam dessa informação
 
 `git push`
 
-Atualizar os arquivos no branch atual
+## Atualizar os arquivos no branch atual
 
 `git pull`
 
-Clonar um repositório remoto já existente
+## Clonar um repositório remoto já existente
 
 `git clone git@github.com:leocomelli/seuRepositório.git`
 
