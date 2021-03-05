@@ -24,12 +24,15 @@ códigos úteis no GIT
   - [Repositório Remoto](#Vincular-repositório-local-com-um-repositório-remoto)
   - [Info do Repos Remotos](#Exibir-informações-dos-repositórios-remotos)
   - [Renomear um Repo remoto](#Renomear-um-repositório-remoto) 
-  -[Descincular um Repo Remoto](#Desvincular-um-repositório-remoto) 
-  -[Primeiro Push](#O-primeiro-push-deve-ser-completo)
-  -[Outros Pushes](#Os-demais-pushes-não-precisam-dessa-informação)
-  -[Atualizar Arq. Branch Atual](#Atualizar-os-arquivos-no-branch-atual)
-  -[Criar novo Branch](#Criando-um-novo-branch)
-  -[Clonar Repositório existente](#Clonar-um-repositório-remoto-já-existente)
+  - [Desvincular um Repo Remoto](#Desvincular-um-repositório-remoto) 
+  - [Primeiro Push](#O-primeiro-push-deve-ser-completo)
+  - [Outros Pushes](#Os-demais-pushes-não-precisam-dessa-informação)
+  - [Atualizar Arq. Branch Atual](#Atualizar-os-arquivos-no-branch-atual)
+  - [Criar novo Branch](#Criando-um-novo-branch)
+  - [Clonar Repositório existente](#Clonar-um-repositório-remoto-já-existente)
+  - [Criar tag Repo remoto](#Criando-tags-no-repositório-remoto)
+
+  
   
 
 
